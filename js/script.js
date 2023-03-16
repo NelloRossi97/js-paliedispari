@@ -14,3 +14,6 @@ Dichiariamo chi ha vinto.
 const wordBox = document.getElementById('word');
 const btnWord = document.querySelector('.btn-success');
 const resultBox = document.querySelector('.resultWord');
+
+btnWord.addEventListener('click', palindrome);
+
