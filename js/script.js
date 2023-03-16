@@ -19,4 +19,4 @@ let evenOddSelect = document.getElementById('evenOdd');
 let rangeSelect = document.getElementById('range');
 
 btnWord.addEventListener('click', palindrome);
-btnEvenOdd.addEventListener('click', evenOdd);
+btnEvenOdd.addEventListener('click', game);
