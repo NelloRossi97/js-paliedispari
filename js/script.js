@@ -15,6 +15,8 @@ const wordBox = document.getElementById('word');
 const btnWord = document.querySelector('.btn-success');
 const resultBox = document.querySelector('.resultWord');
 const btnEvenOdd = document.querySelector('.btn-primary');
+let evenOddSelect = document.getElementById('evenOdd');
+let rangeSelect = document.getElementById('range');
 
 btnWord.addEventListener('click', palindrome);
-
+btnEvenOdd.addEventListener('click', evenOdd);
